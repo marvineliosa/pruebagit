@@ -1,0 +1,16 @@
+git init //crear un repositorio
+git remote add nombre_repositorio servidor/url //git remote add origin https://github.com/marvineliosa/pruebagit.git
+git remote -v //lista los repositorios
+gitk o git log //vemos el historial de commit
+git branch //veo la rama en la que me encuentro
+git clone ruta // git clone https://github.com/marvineliosa/pruebagit.git
+
+//configurar git
+git config --global user.name "Marvin Eliosa"
+git config --global user.email marvinescoool@hotmail.com
+
+git status //para ver cambios en el repositorio local
+git add . o ruta //poner en cabecera archivos y cambios
+git commit -m "DESCRIPCION DE LO QUE CONTIENE ESTA ACTUALIZACION"
+git push ruta(origin) rama(master) //sube cambios a la rama especificada
+git pull ruta(origin) rama(master) //bajar cambios
